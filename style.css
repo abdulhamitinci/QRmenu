@@ -1,0 +1,91 @@
+/* Genel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Başlık stili */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Ana içerik stili */
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bölüm başlıkları stili */
+h2 {
+    color: #4CAF50;
+}
+
+/* Liste stili */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background: #eaeaea;
+}
+
+li img {
+    width: 50px; /* Fotoğraf boyutu */
+    height: 50px; /* Fotoğraf boyutu */
+    margin-right: 15px;
+    border-radius: 8px;
+    object-fit: cover; /* Görüntüyü düzgün ölçeklendirme */
+}
+
+/* İletişim kısmı stili */
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.photo {
+    flex: 0 0 80px; /* Fotoğraf alanı */
+    margin-right: 15px;
+}
+
+.photo img {
+    width: 80px; /* Fotoğraf boyutu */
+    height: 80px; /* Fotoğraf boyutu */
+    border-radius: 50%; /* Daire şekli için */
+    object-fit: cover; /* Fotoğrafın boyutlandırılması */
+}
+
+.details {
+    flex: 1; /* Kalan alanı kaplar */
+}
+
+/* Alt bilgi stili */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
